@@ -18,9 +18,10 @@ namespace KnowledgeCheck1_Calculator
             return first - second;
         }
 
-        public int Multiply(int first, int second)
+        public double Multiply(double first, double second)
         {
-            throw new NotImplementedException();
+            return first * second;
+            //throw new NotImplementedException();
         }
 
         public double Divide(double first, double second)
